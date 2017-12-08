@@ -15,3 +15,4 @@ function register(registration){
 	})
 }
 
+module.exports.register = register;

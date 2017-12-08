@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import com.example.demo.WebSocketConfiguration.*;
+import static com.example.demo.WebSocketConfiguration.*;
 
 import org.springframework.stereotype.Component;
 import org.springframework.data.rest.core.annotation.HandleAfterCreate;

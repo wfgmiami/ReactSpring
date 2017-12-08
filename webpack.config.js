@@ -7,6 +7,11 @@ module.exports = {
 			filename:"./src/main/resources/static/build/bundle.js"
 		},
 		devtool:"source-map",
+		resolve:{
+			alias: {
+				'stompjs': path.join(__dirname, '/node_modules/stompjs/lib/stomp.js'),
+			}
+		},
 		module: {
 			loaders:[
 				{
